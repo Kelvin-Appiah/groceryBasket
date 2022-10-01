@@ -1,0 +1,7 @@
+.itemAddedNotif {
+  background-color: rgba(75, 235, 75, 0.4);
+  color: green;
+  padding: 0.3rem 1rem;
+  margin: 6rem auto;
+  border-radius: 3px;
+}

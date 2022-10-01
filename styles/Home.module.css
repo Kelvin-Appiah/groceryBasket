@@ -1,1 +1,79 @@
+.main {
+  max-width: 70vw;
+  margin: 10rem 5rem;
+}
 
+.article {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: #fff;
+  box-shadow: 2px 3px 10px rgb(184, 181, 181);
+  border-radius: 8px;
+}
+
+.form input {
+  letter-spacing: 1px;
+  background-color: rgb(229, 226, 226);
+  border: none;
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+
+.form button {
+  border: none;
+  background-color: rgb(119, 119, 238);
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+
+  transition: all 0.25s;
+}
+
+.form button:hover {
+  background-color: rgba(119, 119, 238, 0.9);
+}
+
+.listContainer {
+  padding: 1.5rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clearBtn {
+  border: none;
+  letter-spacing: 2px;
+  color: rgb(255, 97, 97);
+  background-color: transparent;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+}
+
+.delBtn,
+.editBtn {
+  border: none;
+  background-color: transparent;
+  margin-inline: 0.1rem;
+  font-size: large;
+}
+
+.delBtn {
+  color: rgb(255, 11, 11);
+}
+
+.editBtn {
+  color: rgb(0, 155, 0);
+}
+
+.listItem {
+  font-weight: 500;
+  color: blue;
+}
